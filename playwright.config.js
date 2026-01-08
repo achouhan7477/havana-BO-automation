@@ -3,16 +3,14 @@ import { defineConfig } from "@playwright/test";
 export default defineConfig({
   testDir: "./tests",
 
-  // 🔴 Ignore Jest-style / API tests
+  // ✅ Correct ignore paths (relative to testDir)
   testIgnore: [
-    "**/tests/auth/**",
-    "**/tests/bonus/**",
-    "**/tests/games/**",
-    "**/tests/users/**",
-    "**/tests/wallet/**",
+    "auth/**",
+    "bonus/**",
+    "games/**",
+    "users/**",
+    "wallet/**",
   ],
-
-  // globalSetup: "./global-setup.js",
 
   use: {
     baseURL: "https://bo-dev.havanafortuna.com",
