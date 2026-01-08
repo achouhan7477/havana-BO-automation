@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e6]:
+          - button [ref=e8] [cursor=pointer]
+          - generic [ref=e14]:
+            - button "en" [ref=e15] [cursor=pointer]:
+              - generic [ref=e17]: en
+            - button [ref=e18] [cursor=pointer]:
+              - img [ref=e19]
+            - button [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - img
+      - generic:
+        - generic:
+          - generic [ref=e29]:
+            - link [ref=e31] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e32]
+            - generic [ref=e37]:
+              - link [ref=e39] [cursor=pointer]:
+                - /url: /dashboard
+                - img [ref=e40]
+              - link [ref=e45] [cursor=pointer]:
+                - /url: /players
+                - img [ref=e46]
+              - button [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+              - button [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+              - button [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+              - button [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+              - button [ref=e74] [cursor=pointer]:
+                - img [ref=e75]
+              - button [ref=e80] [cursor=pointer]:
+                - img [ref=e81]
+              - button [ref=e85] [cursor=pointer]:
+                - img [ref=e86]
+              - button [ref=e90] [cursor=pointer]:
+                - img [ref=e91]
+              - link [ref=e95] [cursor=pointer]:
+                - /url: /packages
+                - img [ref=e96]
+              - button [ref=e102] [cursor=pointer]:
+                - img [ref=e103]
+            - button [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+          - generic [ref=e111]:
+            - heading "Reports" [level=2] [ref=e112]:
+              - generic [ref=e113]: Reports
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Transactions Banking" [ref=e122] [cursor=pointer]:
+                  - /url: /transaction-banking
+                  - img [ref=e124]
+                  - generic [ref=e127]: Transactions Banking
+              - listitem [ref=e128]:
+                - link "Casino Transactions" [ref=e131] [cursor=pointer]:
+                  - /url: /casino-transaction
+                  - img [ref=e133]
+                  - generic [ref=e138]: Casino Transactions
+              - listitem [ref=e139]:
+                - link "Redeem Requests" [ref=e142] [cursor=pointer]:
+                  - /url: /reedem-requests
+                  - img [ref=e144]
+                  - generic [ref=e147]: Redeem Requests
+              - listitem [ref=e148]:
+                - link "Player Report" [ref=e151] [cursor=pointer]:
+                  - /url: /player-report
+                  - img [ref=e153]
+                  - generic [ref=e157]: Player Report
+              - listitem [ref=e158]:
+                - link "Game Report" [ref=e161] [cursor=pointer]:
+                  - /url: /game-report
+                  - img [ref=e163]
+                  - generic [ref=e167]: Game Report
+              - listitem [ref=e168]:
+                - link "CallBack Report" [ref=e171] [cursor=pointer]:
+                  - /url: /callback-report
+                  - img [ref=e173]
+                  - generic [ref=e177]: CallBack Report
+              - listitem [ref=e178]:
+                - link "FreeSpin Report" [ref=e181] [cursor=pointer]:
+                  - /url: /freespin-report
+                  - img [ref=e183]
+                  - generic [ref=e187]: FreeSpin Report
+            - generic [ref=e188]:
+              - generic [ref=e190]: superadmin@trueigtech.com
+              - button [ref=e192] [cursor=pointer]:
+                - img [ref=e193]
+      - main [ref=e200]:
+        - generic [ref=e201]:
+          - alert [ref=e202]:
+            - img [ref=e203]
+            - generic [ref=e205]: Something went wrong!
+          - button "Try again" [ref=e206] [cursor=pointer]
+      - contentinfo [ref=e207]:
+        - paragraph [ref=e209]: COPYRIGHT © 2026 TRUEiGTECH
+      - button [ref=e211] [cursor=pointer]:
+        - img [ref=e212]
+    - region "Notifications (F8)":
+      - list
+  - region "Notifications alt+T"
+  - alert [ref=e215]
+```
