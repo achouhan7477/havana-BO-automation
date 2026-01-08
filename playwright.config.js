@@ -21,6 +21,7 @@ export default defineConfig({
 
     // 🔥 THIS IS THE FIX
     headless: isCI ? true : false,
+    
     slowMo: isCI ? 0 : 500,
 
     viewport: { width: 1440, height: 900 },
