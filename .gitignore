@@ -1,0 +1,9 @@
+# Playwright results
+test-results/
+playwright-report/
+blob-report/
+
+# Screenshots & traces
+**/*.png
+**/*.zip
+**/*.webm
