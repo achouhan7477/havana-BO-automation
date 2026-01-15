@@ -1,0 +1,605 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e6]:
+          - button [ref=e8] [cursor=pointer]
+          - generic [ref=e14]:
+            - button "en" [ref=e15] [cursor=pointer]:
+              - generic [ref=e17]: en
+            - button [ref=e18] [cursor=pointer]:
+              - img [ref=e19]
+            - button [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - img
+      - generic:
+        - generic:
+          - generic [ref=e29]:
+            - link [ref=e31] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e32]
+            - generic [ref=e37]:
+              - link [ref=e39] [cursor=pointer]:
+                - /url: /dashboard
+                - img [ref=e40]
+              - link [ref=e45] [cursor=pointer]:
+                - /url: /players
+                - img [ref=e46]
+              - button [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+              - button [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+              - button [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+              - button [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+              - button [ref=e74] [cursor=pointer]:
+                - img [ref=e75]
+              - button [ref=e80] [cursor=pointer]:
+                - img [ref=e81]
+              - button [ref=e85] [cursor=pointer]:
+                - img [ref=e86]
+              - button [ref=e90] [cursor=pointer]:
+                - img [ref=e91]
+              - link [ref=e95] [cursor=pointer]:
+                - /url: /packages
+                - img [ref=e96]
+              - button [ref=e102] [cursor=pointer]:
+                - img [ref=e103]
+            - button [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+          - generic [ref=e111]:
+            - heading "Casino Management" [level=2] [ref=e112]:
+              - generic [ref=e113]: Casino Management
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Aggregators" [ref=e122] [cursor=pointer]:
+                  - /url: /aggregators
+                  - img [ref=e124]
+                  - generic [ref=e127]: Aggregators
+              - listitem [ref=e128]:
+                - link "Providers" [ref=e131] [cursor=pointer]:
+                  - /url: /providers
+                  - img [ref=e133]
+                  - generic [ref=e138]: Providers
+              - listitem [ref=e139]:
+                - link "Categories" [ref=e142] [cursor=pointer]:
+                  - /url: /categories
+                  - img [ref=e144]
+                  - generic [ref=e147]: Categories
+              - listitem [ref=e148]:
+                - link "Games" [ref=e151] [cursor=pointer]:
+                  - /url: /games
+                  - img [ref=e153]
+                  - generic [ref=e157]: Games
+            - generic [ref=e158]:
+              - generic [ref=e160]: superadmin@trueigtech.com
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e163]
+      - main [ref=e170]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - heading "Games" [level=3] [ref=e175]
+            - generic [ref=e176]:
+              - button "filter Filters" [ref=e179] [cursor=pointer]:
+                - img "filter" [ref=e181]
+                - generic [ref=e182]: Filters
+              - button "Columns" [ref=e183] [cursor=pointer]:
+                - text: Columns
+                - img [ref=e184]
+              - button "Reorder" [ref=e186] [cursor=pointer]
+          - table [ref=e189]:
+            - rowgroup [ref=e190]:
+              - row "Feature ID Game ID New Game Name ▲ ▼ Provider ▲ ▼ RTP ▲ ▼ Category ▲ ▼ Desktop Thumbnail Mobile Thumbnail Has Free Spin Status Action" [ref=e191]:
+                - columnheader "Feature" [ref=e192]
+                - columnheader "ID" [ref=e193]
+                - columnheader "Game ID" [ref=e194]
+                - columnheader "New Game" [ref=e195]
+                - columnheader "Name ▲ ▼" [ref=e196]:
+                  - generic [ref=e197]:
+                    - text: Name
+                    - generic [ref=e198]:
+                      - button "▲" [ref=e199] [cursor=pointer]
+                      - button "▼" [ref=e200] [cursor=pointer]
+                - columnheader "Provider ▲ ▼" [ref=e201]:
+                  - generic [ref=e202]:
+                    - text: Provider
+                    - generic [ref=e203]:
+                      - button "▲" [ref=e204] [cursor=pointer]
+                      - button "▼" [ref=e205] [cursor=pointer]
+                - columnheader "RTP ▲ ▼" [ref=e206]:
+                  - generic [ref=e207]:
+                    - text: RTP
+                    - generic [ref=e208]:
+                      - button "▲" [ref=e209] [cursor=pointer]
+                      - button "▼" [ref=e210] [cursor=pointer]
+                - columnheader "Category ▲ ▼" [ref=e211]:
+                  - generic [ref=e212]:
+                    - text: Category
+                    - generic [ref=e213]:
+                      - button "▲" [ref=e214] [cursor=pointer]
+                      - button "▼" [ref=e215] [cursor=pointer]
+                - columnheader "Desktop Thumbnail" [ref=e216]
+                - columnheader "Mobile Thumbnail" [ref=e217]
+                - columnheader "Has Free Spin" [ref=e218]
+                - columnheader "Status" [ref=e219]
+                - columnheader "Action" [ref=e220]
+            - rowgroup [ref=e221]:
+              - row "47210 26094 DJ Tiger x1000 3 Oaks Gaming 95.74 Slots view - True Active" [ref=e222]:
+                - cell [ref=e223]:
+                  - switch [ref=e225] [cursor=pointer]
+                - cell "47210" [ref=e226]:
+                  - generic [ref=e227]: "47210"
+                - cell "26094" [ref=e228]:
+                  - generic [ref=e229]: "26094"
+                - cell [ref=e230]:
+                  - switch [checked] [ref=e232] [cursor=pointer]
+                - cell "DJ Tiger x1000" [ref=e233]:
+                  - generic [ref=e234]: DJ Tiger x1000
+                - cell "3 Oaks Gaming" [ref=e235]:
+                  - generic [ref=e236]: 3 Oaks Gaming
+                - cell "95.74" [ref=e237]:
+                  - generic [ref=e238]: "95.74"
+                - cell "Slots" [ref=e239]:
+                  - generic [ref=e240]: Slots
+                - cell "view" [ref=e241]:
+                  - img "view" [ref=e243] [cursor=pointer]
+                - cell "-" [ref=e244]
+                - cell "True" [ref=e245]:
+                  - generic [ref=e246]: "True"
+                - cell "Active" [ref=e247]:
+                  - generic [ref=e248]: Active
+                - cell [ref=e249]:
+                  - generic [ref=e250]:
+                    - button [ref=e252] [cursor=pointer]:
+                      - img [ref=e253]
+                    - button [ref=e256] [cursor=pointer]:
+                      - img [ref=e257]
+              - row "47211 26095 Wild Ranch KA Gaming 96 Shooting view - False Active" [ref=e259]:
+                - cell [ref=e260]:
+                  - switch [ref=e262] [cursor=pointer]
+                - cell "47211" [ref=e263]:
+                  - generic [ref=e264]: "47211"
+                - cell "26095" [ref=e265]:
+                  - generic [ref=e266]: "26095"
+                - cell [ref=e267]:
+                  - switch [ref=e269] [cursor=pointer]
+                - cell "Wild Ranch" [ref=e270]:
+                  - generic [ref=e271]: Wild Ranch
+                - cell "KA Gaming" [ref=e272]:
+                  - generic [ref=e273]: KA Gaming
+                - cell "96" [ref=e274]:
+                  - generic [ref=e275]: "96"
+                - cell "Shooting" [ref=e276]:
+                  - generic [ref=e277]: Shooting
+                - cell "view" [ref=e278]:
+                  - img "view" [ref=e280] [cursor=pointer]
+                - cell "-" [ref=e281]
+                - cell "False" [ref=e282]:
+                  - generic [ref=e283]: "False"
+                - cell "Active" [ref=e284]:
+                  - generic [ref=e285]: Active
+                - cell [ref=e286]:
+                  - generic [ref=e287]:
+                    - button [ref=e289] [cursor=pointer]:
+                      - img [ref=e290]
+                    - button [ref=e293] [cursor=pointer]:
+                      - img [ref=e294]
+              - row "45278 13164 Rainbow Keno Caleta 94.5 Keno view - False Active" [ref=e296]:
+                - cell [ref=e297]:
+                  - switch [ref=e299] [cursor=pointer]
+                - cell "45278" [ref=e300]:
+                  - generic [ref=e301]: "45278"
+                - cell "13164" [ref=e302]:
+                  - generic [ref=e303]: "13164"
+                - cell [ref=e304]:
+                  - switch [ref=e306] [cursor=pointer]
+                - cell "Rainbow Keno" [ref=e307]:
+                  - generic [ref=e308]: Rainbow Keno
+                - cell "Caleta" [ref=e309]:
+                  - generic [ref=e310]: Caleta
+                - cell "94.5" [ref=e311]:
+                  - generic [ref=e312]: "94.5"
+                - cell "Keno" [ref=e313]:
+                  - generic [ref=e314]: Keno
+                - cell "view" [ref=e315]:
+                  - img "view" [ref=e317] [cursor=pointer]
+                - cell "-" [ref=e318]
+                - cell "False" [ref=e319]:
+                  - generic [ref=e320]: "False"
+                - cell "Active" [ref=e321]:
+                  - generic [ref=e322]: Active
+                - cell [ref=e323]:
+                  - generic [ref=e324]:
+                    - button [ref=e326] [cursor=pointer]:
+                      - img [ref=e327]
+                    - button [ref=e330] [cursor=pointer]:
+                      - img [ref=e331]
+              - row "47198 25374 3 Wishing Wells GMW 95.65 Slots view - False Active" [ref=e333]:
+                - cell [ref=e334]:
+                  - switch [ref=e336] [cursor=pointer]
+                - cell "47198" [ref=e337]:
+                  - generic [ref=e338]: "47198"
+                - cell "25374" [ref=e339]:
+                  - generic [ref=e340]: "25374"
+                - cell [ref=e341]:
+                  - switch [ref=e343] [cursor=pointer]
+                - cell "3 Wishing Wells" [ref=e344]:
+                  - generic [ref=e345]: 3 Wishing Wells
+                - cell "GMW" [ref=e346]:
+                  - generic [ref=e347]: GMW
+                - cell "95.65" [ref=e348]:
+                  - generic [ref=e349]: "95.65"
+                - cell "Slots" [ref=e350]:
+                  - generic [ref=e351]: Slots
+                - cell "view" [ref=e352]:
+                  - img "view" [ref=e354] [cursor=pointer]
+                - cell "-" [ref=e355]
+                - cell "False" [ref=e356]:
+                  - generic [ref=e357]: "False"
+                - cell "Active" [ref=e358]:
+                  - generic [ref=e359]: Active
+                - cell [ref=e360]:
+                  - generic [ref=e361]:
+                    - button [ref=e363] [cursor=pointer]:
+                      - img [ref=e364]
+                    - button [ref=e367] [cursor=pointer]:
+                      - img [ref=e368]
+              - row "47201 25377 Ravin Hot - 80 Clover Burst GMW 96.06 Slots view - False Active" [ref=e370]:
+                - cell [ref=e371]:
+                  - switch [ref=e373] [cursor=pointer]
+                - cell "47201" [ref=e374]:
+                  - generic [ref=e375]: "47201"
+                - cell "25377" [ref=e376]:
+                  - generic [ref=e377]: "25377"
+                - cell [ref=e378]:
+                  - switch [ref=e380] [cursor=pointer]
+                - cell "Ravin Hot - 80 Clover Burst" [ref=e381]:
+                  - generic [ref=e382]: Ravin Hot - 80 Clover Burst
+                - cell "GMW" [ref=e383]:
+                  - generic [ref=e384]: GMW
+                - cell "96.06" [ref=e385]:
+                  - generic [ref=e386]: "96.06"
+                - cell "Slots" [ref=e387]:
+                  - generic [ref=e388]: Slots
+                - cell "view" [ref=e389]:
+                  - img "view" [ref=e391] [cursor=pointer]
+                - cell "-" [ref=e392]
+                - cell "False" [ref=e393]:
+                  - generic [ref=e394]: "False"
+                - cell "Active" [ref=e395]:
+                  - generic [ref=e396]: Active
+                - cell [ref=e397]:
+                  - generic [ref=e398]:
+                    - button [ref=e400] [cursor=pointer]:
+                      - img [ref=e401]
+                    - button [ref=e404] [cursor=pointer]:
+                      - img [ref=e405]
+              - row "47209 26093 4 Wolf Drums 3 Oaks Gaming 95.7 Slots view - False Active" [ref=e407]:
+                - cell [ref=e408]:
+                  - switch [checked] [ref=e410] [cursor=pointer]
+                - cell "47209" [ref=e411]:
+                  - generic [ref=e412]: "47209"
+                - cell "26093" [ref=e413]:
+                  - generic [ref=e414]: "26093"
+                - cell [ref=e415]:
+                  - switch [checked] [ref=e417] [cursor=pointer]
+                - cell "4 Wolf Drums" [ref=e418]:
+                  - generic [ref=e419]: 4 Wolf Drums
+                - cell "3 Oaks Gaming" [ref=e420]:
+                  - generic [ref=e421]: 3 Oaks Gaming
+                - cell "95.7" [ref=e422]:
+                  - generic [ref=e423]: "95.7"
+                - cell "Slots" [ref=e424]:
+                  - generic [ref=e425]: Slots
+                - cell "view" [ref=e426]:
+                  - img "view" [ref=e428] [cursor=pointer]
+                - cell "-" [ref=e429]
+                - cell "False" [ref=e430]:
+                  - generic [ref=e431]: "False"
+                - cell "Active" [ref=e432]:
+                  - generic [ref=e433]: Active
+                - cell [ref=e434]:
+                  - generic [ref=e435]:
+                    - button [ref=e437] [cursor=pointer]:
+                      - img [ref=e438]
+                    - button [ref=e441] [cursor=pointer]:
+                      - img [ref=e442]
+              - row "43455 71 Diamond Blitz Red Tiger Gaming 94.74 Slots view - False Active" [ref=e444]:
+                - cell [ref=e445]:
+                  - switch [ref=e447] [cursor=pointer]
+                - cell "43455" [ref=e448]:
+                  - generic [ref=e449]: "43455"
+                - cell "71" [ref=e450]:
+                  - generic [ref=e451]: "71"
+                - cell [ref=e452]:
+                  - switch [ref=e454] [cursor=pointer]
+                - cell "Diamond Blitz" [ref=e455]:
+                  - generic [ref=e456]: Diamond Blitz
+                - cell "Red Tiger Gaming" [ref=e457]:
+                  - generic [ref=e458]: Red Tiger Gaming
+                - cell "94.74" [ref=e459]:
+                  - generic [ref=e460]: "94.74"
+                - cell "Slots" [ref=e461]:
+                  - generic [ref=e462]: Slots
+                - cell "view" [ref=e463]:
+                  - img "view" [ref=e465] [cursor=pointer]
+                - cell "-" [ref=e466]
+                - cell "False" [ref=e467]:
+                  - generic [ref=e468]: "False"
+                - cell "Active" [ref=e469]:
+                  - generic [ref=e470]: Active
+                - cell [ref=e471]:
+                  - generic [ref=e472]:
+                    - button [ref=e474] [cursor=pointer]:
+                      - img [ref=e475]
+                    - button [ref=e478] [cursor=pointer]:
+                      - img [ref=e479]
+              - row "47208 26092 Lord of Thunder 3 Oaks Gaming 95.71 Slots view - False Active" [ref=e481]:
+                - cell [ref=e482]:
+                  - switch [ref=e484] [cursor=pointer]
+                - cell "47208" [ref=e485]:
+                  - generic [ref=e486]: "47208"
+                - cell "26092" [ref=e487]:
+                  - generic [ref=e488]: "26092"
+                - cell [ref=e489]:
+                  - switch [ref=e491] [cursor=pointer]
+                - cell "Lord of Thunder" [ref=e492]:
+                  - generic [ref=e493]: Lord of Thunder
+                - cell "3 Oaks Gaming" [ref=e494]:
+                  - generic [ref=e495]: 3 Oaks Gaming
+                - cell "95.71" [ref=e496]:
+                  - generic [ref=e497]: "95.71"
+                - cell "Slots" [ref=e498]:
+                  - generic [ref=e499]: Slots
+                - cell "view" [ref=e500]:
+                  - img "view" [ref=e502] [cursor=pointer]
+                - cell "-" [ref=e503]
+                - cell "False" [ref=e504]:
+                  - generic [ref=e505]: "False"
+                - cell "Active" [ref=e506]:
+                  - generic [ref=e507]: Active
+                - cell [ref=e508]:
+                  - generic [ref=e509]:
+                    - button [ref=e511] [cursor=pointer]:
+                      - img [ref=e512]
+                    - button [ref=e515] [cursor=pointer]:
+                      - img [ref=e516]
+              - row "44353 9750 Caipirinha Keno Caleta 93.64 Keno view - False Active" [ref=e518]:
+                - cell [ref=e519]:
+                  - switch [ref=e521] [cursor=pointer]
+                - cell "44353" [ref=e522]:
+                  - generic [ref=e523]: "44353"
+                - cell "9750" [ref=e524]:
+                  - generic [ref=e525]: "9750"
+                - cell [ref=e526]:
+                  - switch [ref=e528] [cursor=pointer]
+                - cell "Caipirinha Keno" [ref=e529]:
+                  - generic [ref=e530]: Caipirinha Keno
+                - cell "Caleta" [ref=e531]:
+                  - generic [ref=e532]: Caleta
+                - cell "93.64" [ref=e533]:
+                  - generic [ref=e534]: "93.64"
+                - cell "Keno" [ref=e535]:
+                  - generic [ref=e536]: Keno
+                - cell "view" [ref=e537]:
+                  - img "view" [ref=e539] [cursor=pointer]
+                - cell "-" [ref=e540]
+                - cell "False" [ref=e541]:
+                  - generic [ref=e542]: "False"
+                - cell "Active" [ref=e543]:
+                  - generic [ref=e544]: Active
+                - cell [ref=e545]:
+                  - generic [ref=e546]:
+                    - button [ref=e548] [cursor=pointer]:
+                      - img [ref=e549]
+                    - button [ref=e552] [cursor=pointer]:
+                      - img [ref=e553]
+              - row "44337 9320 Cleopatra's Gems Bingo Mascot Gaming 95 Bingo view - False Active" [ref=e555]:
+                - cell [ref=e556]:
+                  - switch [ref=e558] [cursor=pointer]
+                - cell "44337" [ref=e559]:
+                  - generic [ref=e560]: "44337"
+                - cell "9320" [ref=e561]:
+                  - generic [ref=e562]: "9320"
+                - cell [ref=e563]:
+                  - switch [ref=e565] [cursor=pointer]
+                - cell "Cleopatra's Gems Bingo" [ref=e566]:
+                  - generic [ref=e567]: Cleopatra's Gems Bingo
+                - cell "Mascot Gaming" [ref=e568]:
+                  - generic [ref=e569]: Mascot Gaming
+                - cell "95" [ref=e570]:
+                  - generic [ref=e571]: "95"
+                - cell "Bingo" [ref=e572]:
+                  - generic [ref=e573]: Bingo
+                - cell "view" [ref=e574]:
+                  - img "view" [ref=e576] [cursor=pointer]
+                - cell "-" [ref=e577]
+                - cell "False" [ref=e578]:
+                  - generic [ref=e579]: "False"
+                - cell "Active" [ref=e580]:
+                  - generic [ref=e581]: Active
+                - cell [ref=e582]:
+                  - generic [ref=e583]:
+                    - button [ref=e585] [cursor=pointer]:
+                      - img [ref=e586]
+                    - button [ref=e589] [cursor=pointer]:
+                      - img [ref=e590]
+              - row "47199 25375 Cherry Blossom GMW 95.79 Slots view - False Active" [ref=e592]:
+                - cell [ref=e593]:
+                  - switch [checked] [ref=e595] [cursor=pointer]
+                - cell "47199" [ref=e596]:
+                  - generic [ref=e597]: "47199"
+                - cell "25375" [ref=e598]:
+                  - generic [ref=e599]: "25375"
+                - cell [ref=e600]:
+                  - switch [checked] [ref=e602] [cursor=pointer]
+                - cell "Cherry Blossom" [ref=e603]:
+                  - generic [ref=e604]: Cherry Blossom
+                - cell "GMW" [ref=e605]:
+                  - generic [ref=e606]: GMW
+                - cell "95.79" [ref=e607]:
+                  - generic [ref=e608]: "95.79"
+                - cell "Slots" [ref=e609]:
+                  - generic [ref=e610]: Slots
+                - cell "view" [ref=e611]:
+                  - img "view" [ref=e613] [cursor=pointer]
+                - cell "-" [ref=e614]
+                - cell "False" [ref=e615]:
+                  - generic [ref=e616]: "False"
+                - cell "Active" [ref=e617]:
+                  - generic [ref=e618]: Active
+                - cell [ref=e619]:
+                  - generic [ref=e620]:
+                    - button [ref=e622] [cursor=pointer]:
+                      - img [ref=e623]
+                    - button [ref=e626] [cursor=pointer]:
+                      - img [ref=e627]
+              - row "47200 25376 FarmYard, Deluxe Starter Pack GMW 95.81 Slots view - False Active" [ref=e629]:
+                - cell [ref=e630]:
+                  - switch [ref=e632] [cursor=pointer]
+                - cell "47200" [ref=e633]:
+                  - generic [ref=e634]: "47200"
+                - cell "25376" [ref=e635]:
+                  - generic [ref=e636]: "25376"
+                - cell [ref=e637]:
+                  - switch [ref=e639] [cursor=pointer]
+                - cell "FarmYard, Deluxe Starter Pack" [ref=e640]:
+                  - generic [ref=e641]: FarmYard, Deluxe Starter Pack
+                - cell "GMW" [ref=e642]:
+                  - generic [ref=e643]: GMW
+                - cell "95.81" [ref=e644]:
+                  - generic [ref=e645]: "95.81"
+                - cell "Slots" [ref=e646]:
+                  - generic [ref=e647]: Slots
+                - cell "view" [ref=e648]:
+                  - img "view" [ref=e650] [cursor=pointer]
+                - cell "-" [ref=e651]
+                - cell "False" [ref=e652]:
+                  - generic [ref=e653]: "False"
+                - cell "Active" [ref=e654]:
+                  - generic [ref=e655]: Active
+                - cell [ref=e656]:
+                  - generic [ref=e657]:
+                    - button [ref=e659] [cursor=pointer]:
+                      - img [ref=e660]
+                    - button [ref=e663] [cursor=pointer]:
+                      - img [ref=e664]
+              - row "47205 25630 5 Fire Fruits Felix Gaming 92.8 Slots view - False Active" [ref=e666]:
+                - cell [ref=e667]:
+                  - switch [checked] [ref=e669] [cursor=pointer]
+                - cell "47205" [ref=e670]:
+                  - generic [ref=e671]: "47205"
+                - cell "25630" [ref=e672]:
+                  - generic [ref=e673]: "25630"
+                - cell [ref=e674]:
+                  - switch [checked] [ref=e676] [cursor=pointer]
+                - cell "5 Fire Fruits" [ref=e677]:
+                  - generic [ref=e678]: 5 Fire Fruits
+                - cell "Felix Gaming" [ref=e679]:
+                  - generic [ref=e680]: Felix Gaming
+                - cell "92.8" [ref=e681]:
+                  - generic [ref=e682]: "92.8"
+                - cell "Slots" [ref=e683]:
+                  - generic [ref=e684]: Slots
+                - cell "view" [ref=e685]:
+                  - img "view" [ref=e687] [cursor=pointer]
+                - cell "-" [ref=e688]
+                - cell "False" [ref=e689]:
+                  - generic [ref=e690]: "False"
+                - cell "Active" [ref=e691]:
+                  - generic [ref=e692]: Active
+                - cell [ref=e693]:
+                  - generic [ref=e694]:
+                    - button [ref=e696] [cursor=pointer]:
+                      - img [ref=e697]
+                    - button [ref=e700] [cursor=pointer]:
+                      - img [ref=e701]
+              - 'row "47206 25631 5 Fire Fruits: Felix Stars Felix Gaming 92.8 Slots view - False Active" [ref=e703]':
+                - cell [ref=e704]:
+                  - switch [checked] [ref=e706] [cursor=pointer]
+                - cell "47206" [ref=e707]:
+                  - generic [ref=e708]: "47206"
+                - cell "25631" [ref=e709]:
+                  - generic [ref=e710]: "25631"
+                - cell [ref=e711]:
+                  - switch [checked] [ref=e713] [cursor=pointer]
+                - 'cell "5 Fire Fruits: Felix Stars" [ref=e714]':
+                  - generic [ref=e715]: "5 Fire Fruits: Felix Stars"
+                - cell "Felix Gaming" [ref=e716]:
+                  - generic [ref=e717]: Felix Gaming
+                - cell "92.8" [ref=e718]:
+                  - generic [ref=e719]: "92.8"
+                - cell "Slots" [ref=e720]:
+                  - generic [ref=e721]: Slots
+                - cell "view" [ref=e722]:
+                  - img "view" [ref=e724] [cursor=pointer]
+                - cell "-" [ref=e725]
+                - cell "False" [ref=e726]:
+                  - generic [ref=e727]: "False"
+                - cell "Active" [ref=e728]:
+                  - generic [ref=e729]: Active
+                - cell [ref=e730]:
+                  - generic [ref=e731]:
+                    - button [ref=e733] [cursor=pointer]:
+                      - img [ref=e734]
+                    - button [ref=e737] [cursor=pointer]:
+                      - img [ref=e738]
+              - row "47212 26096 Balloon Joker KA Gaming 96 Instant Win view - False Active" [ref=e740]:
+                - cell [ref=e741]:
+                  - switch [ref=e743] [cursor=pointer]
+                - cell "47212" [ref=e744]:
+                  - generic [ref=e745]: "47212"
+                - cell "26096" [ref=e746]:
+                  - generic [ref=e747]: "26096"
+                - cell [ref=e748]:
+                  - switch [ref=e750] [cursor=pointer]
+                - cell "Balloon Joker" [ref=e751]:
+                  - generic [ref=e752]: Balloon Joker
+                - cell "KA Gaming" [ref=e753]:
+                  - generic [ref=e754]: KA Gaming
+                - cell "96" [ref=e755]:
+                  - generic [ref=e756]: "96"
+                - cell "Instant Win" [ref=e757]:
+                  - generic [ref=e758]: Instant Win
+                - cell "view" [ref=e759]:
+                  - img "view" [ref=e761] [cursor=pointer]
+                - cell "-" [ref=e762]
+                - cell "False" [ref=e763]:
+                  - generic [ref=e764]: "False"
+                - cell "Active" [ref=e765]:
+                  - generic [ref=e766]: Active
+                - cell [ref=e767]:
+                  - generic [ref=e768]:
+                    - button [ref=e770] [cursor=pointer]:
+                      - img [ref=e771]
+                    - button [ref=e774] [cursor=pointer]:
+                      - img [ref=e775]
+          - generic [ref=e777]:
+            - generic [ref=e778]:
+              - generic [ref=e779]: Rows per Page
+              - combobox [ref=e780] [cursor=pointer]:
+                - generic: "15"
+                - img [ref=e781]
+            - generic [ref=e783]: 1 of 310 row(s) selected.
+            - generic [ref=e785]:
+              - button [disabled]:
+                - img
+              - button "1" [ref=e786] [cursor=pointer]
+              - button "2" [ref=e787] [cursor=pointer]
+              - button "..." [disabled]
+              - button "310" [ref=e788] [cursor=pointer]
+              - button [ref=e789] [cursor=pointer]:
+                - img [ref=e790]
+      - contentinfo [ref=e792]:
+        - paragraph [ref=e794]: COPYRIGHT © 2026 TRUEiGTECH
+      - button [ref=e796] [cursor=pointer]:
+        - img [ref=e797]
+    - region "Notifications (F8)":
+      - list
+  - region "Notifications alt+T"
+  - alert [ref=e800]
+```

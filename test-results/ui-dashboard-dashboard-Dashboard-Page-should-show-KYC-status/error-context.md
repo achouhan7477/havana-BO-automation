@@ -1,0 +1,522 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e7]:
+          - button "en" [ref=e8] [cursor=pointer]:
+            - generic [ref=e10]: en
+          - button [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button [ref=e15] [cursor=pointer]:
+            - img [ref=e16]
+            - img
+      - generic:
+        - generic:
+          - generic [ref=e22]:
+            - link [ref=e24] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e25]
+            - generic [ref=e30]:
+              - link [ref=e32] [cursor=pointer]:
+                - /url: /dashboard
+                - img [ref=e33]
+              - link [ref=e38] [cursor=pointer]:
+                - /url: /players
+                - img [ref=e39]
+              - button [ref=e45] [cursor=pointer]:
+                - img [ref=e46]
+              - button [ref=e50] [cursor=pointer]:
+                - img [ref=e51]
+              - button [ref=e55] [cursor=pointer]:
+                - img [ref=e56]
+              - button [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+              - button [ref=e67] [cursor=pointer]:
+                - img [ref=e68]
+              - button [ref=e73] [cursor=pointer]:
+                - img [ref=e74]
+              - button [ref=e78] [cursor=pointer]:
+                - img [ref=e79]
+              - button [ref=e83] [cursor=pointer]:
+                - img [ref=e84]
+              - link [ref=e88] [cursor=pointer]:
+                - /url: /packages
+                - img [ref=e89]
+              - button [ref=e95] [cursor=pointer]:
+                - img [ref=e96]
+            - button [ref=e100] [cursor=pointer]:
+              - img [ref=e101]
+          - generic [ref=e104]:
+            - heading [level=2] [ref=e105]
+            - generic [ref=e107]:
+              - generic:
+                - generic:
+                  - list
+            - generic [ref=e108]:
+              - generic [ref=e110]: superadmin@trueigtech.com
+              - button [ref=e112] [cursor=pointer]:
+                - img [ref=e113]
+      - main [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Dashboard
+            - generic [ref=e124]:
+              - button "Today" [ref=e125] [cursor=pointer]
+              - button "Yesterday" [ref=e126] [cursor=pointer]
+              - button "This Week" [ref=e127] [cursor=pointer]
+              - button "Pick a date" [ref=e129] [cursor=pointer]:
+                - img [ref=e130]
+                - generic [ref=e132]: Pick a date
+          - generic [ref=e133]:
+            - generic [ref=e135]:
+              - generic [ref=e139]: Reports
+              - tablist [ref=e142]:
+                - tab "Registered users 0" [selected] [ref=e143] [cursor=pointer]:
+                  - generic [ref=e145]: Registered users
+                  - generic [ref=e146]: "0"
+                - tab "Total GGR 0.00" [ref=e147] [cursor=pointer]:
+                  - generic [ref=e149]: Total GGR
+                  - generic [ref=e150]: "0.00"
+                - tab "SC Wagered Coin 0.00" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e153]: SC Wagered Coin
+                  - generic [ref=e154]: "0.00"
+                - tab "SC Won Coin 0.00" [ref=e155] [cursor=pointer]:
+                  - generic [ref=e157]: SC Won Coin
+                  - generic [ref=e158]: "0.00"
+                - tab "Purchase Amount 0.00" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e161]: Purchase Amount
+                  - generic [ref=e162]: "0.00"
+                - tab "Purchase Coin 0.00" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e165]: Purchase Coin
+                  - generic [ref=e166]: "0.00"
+                - tab "SC Redeem Amount 0.00" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e169]: SC Redeem Amount
+                  - generic [ref=e170]: "0.00"
+                - tab "SC Bonus Coin 0.00" [ref=e171] [cursor=pointer]:
+                  - generic [ref=e173]: SC Bonus Coin
+                  - generic [ref=e174]: "0.00"
+                - tab "Admin Purchase Coin 0.00" [ref=e175] [cursor=pointer]:
+                  - generic [ref=e177]: Admin Purchase Coin
+                  - generic [ref=e178]: "0.00"
+                - tab "Admin Redeem Coin 0.00" [ref=e179] [cursor=pointer]:
+                  - generic [ref=e181]: Admin Redeem Coin
+                  - generic [ref=e182]: "0.00"
+            - generic [ref=e184]:
+              - heading "Real-Time Activity" [level=3] [ref=e185]
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - img [ref=e189]
+                    - generic [ref=e194]:
+                      - paragraph [ref=e195]: Online Players
+                      - paragraph [ref=e196]: "0"
+                  - generic [ref=e197]: Live
+                - generic [ref=e198]:
+                  - generic [ref=e199]:
+                    - img [ref=e200]
+                    - generic [ref=e206]:
+                      - paragraph [ref=e207]: Total Winnings
+                      - paragraph [ref=e208]: "0.00"
+                  - generic [ref=e209]: Last Hour
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - img [ref=e212]
+                    - generic [ref=e217]:
+                      - paragraph [ref=e218]: Active Wagers
+                      - paragraph [ref=e219]: "0.00"
+                  - generic [ref=e220]: Now
+                - generic [ref=e221]:
+                  - generic [ref=e222]:
+                    - img [ref=e223]
+                    - generic [ref=e225]:
+                      - paragraph [ref=e226]: Pending Withdrawals
+                      - paragraph [ref=e227]: "8"
+                  - generic [ref=e228]: Attention
+          - generic [ref=e229]:
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - generic [ref=e234]:
+                  - img [ref=e235]
+                  - heading "Top Performing" [level=3] [ref=e237]
+                  - tablist [ref=e241]:
+                    - tab "Game" [selected] [ref=e242] [cursor=pointer]
+                    - tab "Provider" [ref=e243] [cursor=pointer]
+                - combobox [ref=e245]:
+                  - option "Today"
+                  - option "Yesterday"
+                  - option "Month To Date"
+                  - option "Last 7 Days"
+                  - option "Last 30 Days"
+                  - option "Last 90 Days"
+                  - option "Week To Date"
+                  - option "Year To Date" [selected]
+                  - option "Previous Month"
+                  - option "Previous Year"
+              - table [ref=e248]:
+                - rowgroup [ref=e249]:
+                  - row "ID Game GC Wagered GC Won SC Wagered SC Won GGR Payout" [ref=e250]:
+                    - columnheader "ID" [ref=e251]
+                    - columnheader "Game" [ref=e252]
+                    - columnheader "GC Wagered" [ref=e253]
+                    - columnheader "GC Won" [ref=e254]
+                    - columnheader "SC Wagered" [ref=e255]
+                    - columnheader "SC Won" [ref=e256]
+                    - columnheader "GGR" [ref=e257]
+                    - columnheader "Payout" [ref=e258]
+                - rowgroup [ref=e259]:
+                  - row "No results Found." [ref=e260]:
+                    - cell "No results Found." [ref=e261]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - generic [ref=e265]: No results Found.
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - img [ref=e270]
+                  - heading "Sweep Coins Management" [level=3] [ref=e275]
+                - button [ref=e276] [cursor=pointer]:
+                  - img [ref=e277]
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - paragraph [ref=e284]: Total Issued
+                  - paragraph [ref=e285]: "0.00"
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - generic [ref=e290]: "-0%"
+                - generic [ref=e291]:
+                  - paragraph [ref=e292]: In Circulation
+                  - paragraph [ref=e293]: 99,938,852.75
+                - generic [ref=e294]:
+                  - paragraph [ref=e295]: Redemption Rate
+                  - paragraph [ref=e296]: "0"
+                  - generic [ref=e297]:
+                    - img [ref=e298]
+                    - generic [ref=e301]: "-0%"
+                - generic [ref=e302]:
+                  - paragraph [ref=e303]: Conversion Rate
+                  - paragraph [ref=e304]: "0"
+                  - generic [ref=e305]:
+                    - img [ref=e306]
+                    - generic [ref=e309]: "-0%"
+          - generic [ref=e310]:
+            - generic [ref=e312]:
+              - heading "Financial Activity" [level=3] [ref=e313]
+              - generic [ref=e316]:
+                - img [ref=e317]:
+                  - generic [ref=e324]: 2026-01-12
+                  - generic [ref=e326]:
+                    - generic [ref=e328]: "0"
+                    - generic [ref=e330]: "1"
+                    - generic [ref=e332]: "2"
+                    - generic [ref=e334]: "3"
+                    - generic [ref=e336]: "4"
+                - list [ref=e344]:
+                  - listitem [ref=e345]:
+                    - img [ref=e346]
+                    - text: Deposits
+                  - listitem [ref=e348]:
+                    - img [ref=e349]
+                    - text: Withdrawals
+            - generic [ref=e352]:
+              - generic [ref=e354]:
+                - img [ref=e355]
+                - heading "Compliance & Security" [level=3] [ref=e357]
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - img [ref=e362]
+                  - heading "KYC Status" [level=4] [ref=e366]
+                - generic [ref=e367]: 9%
+          - generic [ref=e370]:
+            - generic [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]:
+                  - img [ref=e375]
+                  - heading "Top Players" [level=3] [ref=e381]
+                - combobox [ref=e384] [cursor=pointer]:
+                  - generic: Select Order By
+                  - img [ref=e385]
+              - table [ref=e390]:
+                - rowgroup [ref=e391]:
+                  - row "Username Bet Count Win Count Total Purchased Total Redeemed Total Win Total Wagered SC Balance GGR Total NGR" [ref=e392]:
+                    - columnheader "Username" [ref=e393]
+                    - columnheader "Bet Count" [ref=e394]
+                    - columnheader "Win Count" [ref=e395]
+                    - columnheader "Total Purchased" [ref=e396]
+                    - columnheader "Total Redeemed" [ref=e397]
+                    - columnheader "Total Win" [ref=e398]
+                    - columnheader "Total Wagered" [ref=e399]
+                    - columnheader "SC Balance" [ref=e400]
+                    - columnheader "GGR" [ref=e401]
+                    - columnheader "Total NGR" [ref=e402]
+                - rowgroup [ref=e403]:
+                  - row "vvip 54 11 10000 0 11000 11300 11305 300 195" [ref=e404]:
+                    - cell "vvip" [ref=e405]:
+                      - link "vvip" [ref=e406] [cursor=pointer]:
+                        - /url: /player-details/154
+                    - cell "54" [ref=e407]
+                    - cell "11" [ref=e408]
+                    - cell "10000" [ref=e409]
+                    - cell "0" [ref=e410]
+                    - cell "11000" [ref=e411]
+                    - cell "11300" [ref=e412]
+                    - cell "11305" [ref=e413]
+                    - cell "300" [ref=e414]
+                    - cell "195" [ref=e415]
+                  - row "viptesting 55 21 5400 0 8652 10351 4147.93 1699 1583.06" [ref=e416]:
+                    - cell "viptesting" [ref=e417]:
+                      - link "viptesting" [ref=e418] [cursor=pointer]:
+                        - /url: /player-details/148
+                    - cell "55" [ref=e419]
+                    - cell "21" [ref=e420]
+                    - cell "5400" [ref=e421]
+                    - cell "0" [ref=e422]
+                    - cell "8652" [ref=e423]
+                    - cell "10351" [ref=e424]
+                    - cell "4147.93" [ref=e425]
+                    - cell "1699" [ref=e426]
+                    - cell "1583.06" [ref=e427]
+                  - row "hiitesingst 177 44 5500 0 4722 8601 3746.64 3879 3253.36" [ref=e428]:
+                    - cell "hiitesingst" [ref=e429]:
+                      - link "hiitesingst" [ref=e430] [cursor=pointer]:
+                        - /url: /player-details/252
+                    - cell "177" [ref=e431]
+                    - cell "44" [ref=e432]
+                    - cell "5500" [ref=e433]
+                    - cell "0" [ref=e434]
+                    - cell "4722" [ref=e435]
+                    - cell "8601" [ref=e436]
+                    - cell "3746.64" [ref=e437]
+                    - cell "3879" [ref=e438]
+                    - cell "3253.36" [ref=e439]
+                  - row "vippesteing 46 7 51110 0 1450 6720 1159.4 5270 4005.6" [ref=e440]:
+                    - cell "vippesteing" [ref=e441]:
+                      - link "vippesteing" [ref=e442] [cursor=pointer]:
+                        - /url: /player-details/259
+                    - cell "46" [ref=e443]
+                    - cell "7" [ref=e444]
+                    - cell "51110" [ref=e445]
+                    - cell "0" [ref=e446]
+                    - cell "1450" [ref=e447]
+                    - cell "6720" [ref=e448]
+                    - cell "1159.4" [ref=e449]
+                    - cell "5270" [ref=e450]
+                    - cell "4005.6" [ref=e451]
+                  - row "pravesh27 38 17 2500 0 4423.05 5560 1711.01 1136.94 945.98" [ref=e452]:
+                    - cell "pravesh27" [ref=e453]:
+                      - link "pravesh27" [ref=e454] [cursor=pointer]:
+                        - /url: /player-details/138
+                    - cell "38" [ref=e455]
+                    - cell "17" [ref=e456]
+                    - cell "2500" [ref=e457]
+                    - cell "0" [ref=e458]
+                    - cell "4423.05" [ref=e459]
+                    - cell "5560" [ref=e460]
+                    - cell "1711.01" [ref=e461]
+                    - cell "1136.94" [ref=e462]
+                    - cell "945.98" [ref=e463]
+                  - row "amanc7477nknknk 194 32 10400 1002 3128 5188 10155.1 2060 1614.9" [ref=e464]:
+                    - cell "amanc7477nknknk" [ref=e465]:
+                      - link "amanc7477nknknk" [ref=e466] [cursor=pointer]:
+                        - /url: /player-details/253
+                    - cell "194" [ref=e467]
+                    - cell "32" [ref=e468]
+                    - cell "10400" [ref=e469]
+                    - cell "1002" [ref=e470]
+                    - cell "3128" [ref=e471]
+                    - cell "5188" [ref=e472]
+                    - cell "10155.1" [ref=e473]
+                    - cell "2060" [ref=e474]
+                    - cell "1614.9" [ref=e475]
+                  - row "ps5546 20 11 2000 0 5150 3691 3804 -1459 -1580" [ref=e476]:
+                    - cell "ps5546" [ref=e477]:
+                      - link "ps5546" [ref=e478] [cursor=pointer]:
+                        - /url: /player-details/31
+                    - cell "20" [ref=e479]
+                    - cell "11" [ref=e480]
+                    - cell "2000" [ref=e481]
+                    - cell "0" [ref=e482]
+                    - cell "5150" [ref=e483]
+                    - cell "3691" [ref=e484]
+                    - cell "3804" [ref=e485]
+                    - cell "-1459" [ref=e486]
+                    - cell "-1580" [ref=e487]
+                  - row "hanji23 126 37 4993 50 2277.92 3669.8 24966.65 1391.88 624.4" [ref=e488]:
+                    - cell "hanji23" [ref=e489]:
+                      - link "hanji23" [ref=e490] [cursor=pointer]:
+                        - /url: /player-details/89
+                    - cell "126" [ref=e491]
+                    - cell "37" [ref=e492]
+                    - cell "4993" [ref=e493]
+                    - cell "50" [ref=e494]
+                    - cell "2277.92" [ref=e495]
+                    - cell "3669.8" [ref=e496]
+                    - cell "24966.65" [ref=e497]
+                    - cell "1391.88" [ref=e498]
+                    - cell "624.4" [ref=e499]
+                  - row "iamvip2 21 3 5000 0 400 3550 2089 3150 3145" [ref=e500]:
+                    - cell "iamvip2" [ref=e501]:
+                      - link "iamvip2" [ref=e502] [cursor=pointer]:
+                        - /url: /player-details/151
+                    - cell "21" [ref=e503]
+                    - cell "3" [ref=e504]
+                    - cell "5000" [ref=e505]
+                    - cell "0" [ref=e506]
+                    - cell "400" [ref=e507]
+                    - cell "3550" [ref=e508]
+                    - cell "2089" [ref=e509]
+                    - cell "3150" [ref=e510]
+                    - cell "3145" [ref=e511]
+                  - row "iamvip 20 3 5000 0 750 3500 2489 2750 2745" [ref=e512]:
+                    - cell "iamvip" [ref=e513]:
+                      - link "iamvip" [ref=e514] [cursor=pointer]:
+                        - /url: /player-details/150
+                    - cell "20" [ref=e515]
+                    - cell "3" [ref=e516]
+                    - cell "5000" [ref=e517]
+                    - cell "0" [ref=e518]
+                    - cell "750" [ref=e519]
+                    - cell "3500" [ref=e520]
+                    - cell "2489" [ref=e521]
+                    - cell "2750" [ref=e522]
+                    - cell "2745" [ref=e523]
+            - generic [ref=e525]:
+              - heading "Demographic Reports" [level=3] [ref=e526]
+              - generic [ref=e528]:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic [ref=e581]:
+                    - button "Zoom in" [ref=e582] [cursor=pointer]: +
+                    - button "Zoom out" [ref=e583] [cursor=pointer]: −
+                  - link "Leaflet" [ref=e585] [cursor=pointer]:
+                    - /url: https://leafletjs.com
+                    - img [ref=e586]
+                    - text: Leaflet
+            - generic [ref=e591]:
+              - generic [ref=e592]:
+                - generic [ref=e593]:
+                  - img [ref=e594]
+                  - heading "Referral System" [level=3] [ref=e599]
+                - heading "Top Referrers" [level=4] [ref=e601]
+              - generic [ref=e602]:
+                - generic [ref=e603]:
+                  - generic [ref=e604]:
+                    - generic [ref=e605]:
+                      - img [ref=e606]
+                      - paragraph [ref=e611]: Total Referrals
+                    - paragraph [ref=e612]: "26"
+                  - generic [ref=e613]:
+                    - generic [ref=e614]:
+                      - img [ref=e615]
+                      - paragraph [ref=e620]: Active Players
+                    - paragraph [ref=e621]: "12"
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - img [ref=e624]
+                      - paragraph [ref=e627]: Total Bonuses
+                    - paragraph [ref=e628]: "50.00"
+                - generic [ref=e630]:
+                  - generic [ref=e631]:
+                    - generic [ref=e632]:
+                      - generic [ref=e634]: p
+                      - generic [ref=e635]:
+                        - paragraph [ref=e636] [cursor=pointer]: playersaran6
+                        - paragraph [ref=e637]: 10 referrals
+                    - generic [ref=e638]:
+                      - paragraph [ref=e639]: "0"
+                      - paragraph [ref=e640]: 10.0% active
+                  - generic [ref=e641]:
+                    - generic [ref=e642]:
+                      - generic [ref=e644]: f
+                      - generic [ref=e645]:
+                        - paragraph [ref=e646] [cursor=pointer]: final123
+                        - paragraph [ref=e647]: 3 referrals
+                    - generic [ref=e648]:
+                      - paragraph [ref=e649]: "15.00"
+                      - paragraph [ref=e650]: 0.0% active
+                  - generic [ref=e651]:
+                    - generic [ref=e652]:
+                      - generic [ref=e654]: f
+                      - generic [ref=e655]:
+                        - paragraph [ref=e656] [cursor=pointer]: finalReferrer123
+                        - paragraph [ref=e657]: 3 referrals
+                    - generic [ref=e658]:
+                      - paragraph [ref=e659]: "0"
+                      - paragraph [ref=e660]: 0.0% active
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - generic [ref=e664]: s
+                      - generic [ref=e665]:
+                        - paragraph [ref=e666] [cursor=pointer]: smith16
+                        - paragraph [ref=e667]: 2 referrals
+                    - generic [ref=e668]:
+                      - paragraph [ref=e669]: "0"
+                      - paragraph [ref=e670]: 0.0% active
+                  - generic [ref=e671]:
+                    - generic [ref=e672]:
+                      - generic [ref=e674]: b
+                      - generic [ref=e675]:
+                        - paragraph [ref=e676] [cursor=pointer]: bonustesting
+                        - paragraph [ref=e677]: 2 referrals
+                    - generic [ref=e678]:
+                      - paragraph [ref=e679]: "0"
+                      - paragraph [ref=e680]: 0.0% active
+                  - generic [ref=e681]:
+                    - generic [ref=e682]:
+                      - generic [ref=e684]: h
+                      - generic [ref=e685]:
+                        - paragraph [ref=e686] [cursor=pointer]: hanji23
+                        - paragraph [ref=e687]: 2 referrals
+                    - generic [ref=e688]:
+                      - paragraph [ref=e689]: "0"
+                      - paragraph [ref=e690]: 0.0% active
+                  - generic [ref=e691]:
+                    - generic [ref=e692]:
+                      - generic [ref=e694]: t
+                      - generic [ref=e695]:
+                        - paragraph [ref=e696] [cursor=pointer]: testtesttesting
+                        - paragraph [ref=e697]: 1 referrals
+                    - generic [ref=e698]:
+                      - paragraph [ref=e699]: "0"
+                      - paragraph [ref=e700]: 0.0% active
+                  - generic [ref=e701]:
+                    - generic [ref=e702]:
+                      - generic [ref=e704]: A
+                      - generic [ref=e705]:
+                        - paragraph [ref=e706] [cursor=pointer]: Amul25
+                        - paragraph [ref=e707]: 1 referrals
+                    - generic [ref=e708]:
+                      - paragraph [ref=e709]: "0"
+                      - paragraph [ref=e710]: 0.0% active
+                  - generic [ref=e711]:
+                    - generic [ref=e712]:
+                      - generic [ref=e714]: v
+                      - generic [ref=e715]:
+                        - paragraph [ref=e716] [cursor=pointer]: vvip
+                        - paragraph [ref=e717]: 1 referrals
+                    - generic [ref=e718]:
+                      - paragraph [ref=e719]: "0"
+                      - paragraph [ref=e720]: 0.0% active
+                  - generic [ref=e721]:
+                    - generic [ref=e722]:
+                      - generic [ref=e724]: v
+                      - generic [ref=e725]:
+                        - paragraph [ref=e726] [cursor=pointer]: viptesting
+                        - paragraph [ref=e727]: 1 referrals
+                    - generic [ref=e728]:
+                      - paragraph [ref=e729]: "0"
+                      - paragraph [ref=e730]: 0.0% active
+      - contentinfo [ref=e731]:
+        - paragraph [ref=e733]: COPYRIGHT © 2026 TRUEiGTECH
+      - button [ref=e735] [cursor=pointer]:
+        - img [ref=e736]
+    - region "Notifications (F8)":
+      - list
+  - region "Notifications alt+T"
+  - alert [ref=e739]
+  - generic [ref=e740]: "4"
+```
