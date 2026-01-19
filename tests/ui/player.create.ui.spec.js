@@ -20,7 +20,7 @@ test("Admin should create a new player (full flow)", async ({ page }) => {
   // 4️⃣ Generate unique test data
   const id = Date.now();
   const email = `demoplayer${id}@mailinator.com`;
-  const username = `auto_player_${id}`;
+  const username = `boostbonustest${id}`;
 
   // 5️⃣ Fill basic required fields
   await page.fill('input[name="firstName"]', "demo");
