@@ -140,7 +140,7 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
   //   await enInput.fill("Boost Bonus EN");
 
   //   await page.getByText("ES").click();
-
+45
   //   const esInput = page.locator("input[name*='es']");
   //   await esInput.waitFor();
   //   await esInput.fill("Boost Bonus ES");
