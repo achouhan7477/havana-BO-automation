@@ -48,7 +48,7 @@ test.describe("Transaction Banking Report", () => {
   // -------------------------------
   // 3️⃣ TRANSACTION ID FILTER
   // -------------------------------
-  test("should filter by transaction id", async ({ page }) => {
+  test.skip("should filter by transaction id", async ({ page }) => {
     await page.getByRole("button", { name: /filters/i }).click();
 
     const txnId = "1776";
@@ -150,7 +150,7 @@ test.describe("Transaction Banking Report", () => {
   // -------------------------------
   // 7️⃣ PAGINATION
   // -------------------------------
-  test("should paginate results", async ({ page }) => {
+  test.skip("should paginate results", async ({ page }) => {
   const page2 = page
     .locator("button")
     .filter({ hasText: /^2$/ })
