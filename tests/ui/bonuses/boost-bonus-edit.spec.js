@@ -1,4 +1,7 @@
 import { test, expect } from "@playwright/test";
+// import { typeWithDelay } from "../../../utils/typeWithDelay";
+
+import { typeWithDelay } from "../../../src/utils/typeWithDelay";
 
 test.describe("Bonus Management - Edit Boost Bonus", () => {
 
@@ -7,7 +10,6 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
   // ----------------------------------
   test.beforeEach(async ({ page }) => {
     await page.goto("/en/bonus", { waitUntil: "domcontentloaded" });
-    await page.waitForLoadState("networkidle");
 
     await expect(
       page.locator("text=Bonus").first()
@@ -27,7 +29,7 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
 
     await expect(
       page.getByText("Edit Boost Bonus", { exact: true })
-    ).toBeVisible({ timeout: 30000 });
+    ).toBeVisible();
   });
 
   // ----------------------------------
@@ -45,8 +47,9 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
     await page.getByLabel("Friday").check({ force: true });
 
     const percentInputs = page.locator("input[type='number']");
-    await percentInputs.nth(0).fill("25");
-    await percentInputs.nth(1).fill("50");
+
+    await typeWithDelay(percentInputs.nth(0), "25", 250);
+    await typeWithDelay(percentInputs.nth(1), "50", 250);
 
     await page.getByRole("button", { name: "Submit" }).click({ force: true });
 
@@ -62,12 +65,15 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
     const boostRow = page.locator("tr", { hasText: "Boost Bonus" });
     await boostRow.locator("button svg").nth(1).click({ force: true });
 
-    await page.locator("input[type='number']").first().fill("");
+    const percent = page.locator("input[type='number']").first();
+
+    await percent.click();
+    await percent.press("Control+A");
+    await percent.press("Backspace");
+
     await page.getByRole("button", { name: "Submit" }).click({ force: true });
 
-    await expect(
-      page.getByText("Edit Boost Bonus")
-    ).toBeVisible();
+    await expect(page.getByText("Edit Boost Bonus")).toBeVisible();
   });
 
   // ----------------------------------
@@ -80,14 +86,12 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
     const percent = page.locator("input[type='number']").first();
     const submitBtn = page.getByRole("button", { name: "Submit" });
 
-    await percent.fill("0");
+    await typeWithDelay(percent, "0", 200);
     await submitBtn.click({ force: true });
-
     await expect(page.getByText("Edit Boost Bonus")).toBeVisible();
 
-    await percent.fill("101");
+    await typeWithDelay(percent, "101", 200);
     await submitBtn.click({ force: true });
-
     await expect(page.getByText("Edit Boost Bonus")).toBeVisible();
   });
 
@@ -104,9 +108,7 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
 
     await page.getByRole("button", { name: "Submit" }).click({ force: true });
 
-    await expect(
-      page.getByText("Edit Boost Bonus")
-    ).toBeVisible();
+    await expect(page.getByText("Edit Boost Bonus")).toBeVisible();
   });
 
   // ----------------------------------
@@ -116,38 +118,19 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
     const boostRow = page.locator("tr", { hasText: "Boost Bonus" });
     await boostRow.locator("button svg").nth(1).click({ force: true });
 
-    // 2nd number input = Max Bonus Limit (label not reliable)
     const maxLimit = page.locator("input[type='number']").nth(1);
 
-    await maxLimit.fill("");
+    await maxLimit.click();
+    await maxLimit.press("Control+A");
+    await maxLimit.press("Backspace");
+
     await page.getByRole("button", { name: "Submit" }).click({ force: true });
     await expect(page.getByText("Edit Boost Bonus")).toBeVisible();
 
-    await maxLimit.fill("-10");
+    await typeWithDelay(maxLimit, "-10", 200);
     await page.getByRole("button", { name: "Submit" }).click({ force: true });
     await expect(page.getByText("Edit Boost Bonus")).toBeVisible();
   });
-
-  // ----------------------------------
-  // LANGUAGE TAB – DATA RETENTION
-  // ----------------------------------
-  // test("should retain EN data when switching language tabs", async ({ page }) => {
-  //   const boostRow = page.locator("tr", { hasText: "Boost Bonus" });
-  //   await boostRow.locator("button svg").nth(1).click({ force: true });
-
-  //   const enInput = page.locator("input[name*='en']");
-  //   await enInput.waitFor();
-  //   await enInput.fill("Boost Bonus EN");
-
-  //   await page.getByText("ES").click();
-45
-  //   const esInput = page.locator("input[name*='es']");
-  //   await esInput.waitFor();
-  //   await esInput.fill("Boost Bonus ES");
-
-  //   await page.getByText("EN").click();
-  //   await expect(enInput).toHaveValue("Boost Bonus EN");
-  // });
 
   // ----------------------------------
   // FORM BEHAVIOUR – REFRESH
@@ -156,16 +139,15 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
     const boostRow = page.locator("tr", { hasText: "Boost Bonus" });
     await boostRow.locator("button svg").nth(1).click({ force: true });
 
-    await page.locator("input[type='number']").first().fill("99");
+    const percent = page.locator("input[type='number']").first();
+
+    await typeWithDelay(percent, "99", 200);
 
     await page.reload();
 
-    // reopen edit
     await boostRow.locator("button svg").nth(1).click({ force: true });
 
-    await expect(
-      page.locator("input[type='number']").first()
-    ).not.toHaveValue("99");
+    await expect(percent).not.toHaveValue("99");
   });
 
   // ----------------------------------
@@ -176,7 +158,9 @@ test.describe("Bonus Management - Edit Boost Bonus", () => {
     await boostRow.locator("button svg").nth(1).click({ force: true });
 
     await page.getByLabel("Thursday").check({ force: true });
-    await page.locator("input[type='number']").first().fill("30");
+
+    const percent = page.locator("input[type='number']").first();
+    await typeWithDelay(percent, "30", 200);
 
     const submitBtn = page.getByRole("button", { name: "Submit" });
 

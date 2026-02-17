@@ -41,7 +41,7 @@ test("Admin should create a new player (full flow)", async ({ page }) => {
   await page.fill('input[name="dateOfBirth"]', "1998-01-08");
 
   // 9️⃣ Amount
-  await page.fill('input[name="amount"]', "0");
+  await page.fill('input[name="amount"]', "0.1");
 
   // 🔟 Cashier ID dropdown
   await page.getByText("Enter Cashier ID").click();
